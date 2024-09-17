@@ -86,7 +86,7 @@ The model can efficiently classify whether an employee is wearing safety gear ba
 Here is a brief summary of the MobileNetV2 model used in this project:
 
 
-"C:\\Users\\zahra\\Pictures\\Screenshots\\Screenshot 2024-09-16 175837.png" 
+model.png
 
 - Base Model: MobileNetV2 (pre-trained on ImageNet)
 - Global Average Pooling: Reduces the spatial dimensions of the feature maps.
