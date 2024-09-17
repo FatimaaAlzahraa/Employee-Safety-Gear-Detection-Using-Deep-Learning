@@ -8,10 +8,10 @@ from PIL import Image
 st.title("Employee Safety Gear Detection Using Deep Learning (MobileNetV2)")
 st.write("Upload an image and the model will predict whether the employee is wearing safety gear.")
 
-# Load the pre-trained model
-@st.cache(allow_output_mutation=True)  # Cache the model to avoid reloading it on every interaction
+# Use st.cache_resource instead of st.cache to cache the model
+@st.cache_resource
 def load_safety_model():
-    model = load_model(r"C:\Users\zahra\Downloads\projectdeep\employee_safety_model.keras") # Replace with your model path
+    model = load_model(r'C:\Users\zahra\Downloads\projectdeep\employee_safety_model.keras')  # Replace with the correct model path
     return model
 
 model = load_safety_model()
