@@ -97,6 +97,7 @@ The model is highly efficient due to the lightweight nature of MobileNetV2, maki
 
 You can try out the **Employee Safety Gear Detection** app live on Streamlit Cloud:
 
-- **[Click here to view the live app]([https://your-app-link.streamlit.app/](https://safety-gear-detections.streamlit.app// ))**
+- **[Click here to view the live app](https://safety-gear-detections.streamlit.app/)**
+
 
 
