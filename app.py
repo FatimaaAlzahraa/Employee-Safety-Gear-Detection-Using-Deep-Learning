@@ -11,8 +11,9 @@ st.write("Upload an image and the model will predict whether the employee is wea
 # Load the trained model
 @st.cache  # Use st.cache for older versions of Streamlit
 def load_safety_model():
-    model = load_model(r'C:\Users\zahra\Downloads\projectdeep\employee_safety_model.keras')  # Make sure the correct path is provided
+    model = load_model("https://raw.github.com/FatimaaAlzahraa/projectdeep/blob/master/employee_safety_model.keras")  # Make sure the correct path is provided
     return model
+
 
 # Load the model using the load_safety_model function
 model = load_safety_model()
