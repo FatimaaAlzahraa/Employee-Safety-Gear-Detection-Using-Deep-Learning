@@ -92,3 +92,11 @@ Here is a brief summary of the MobileNetV2 model used in this project:
 - Global Average Pooling: Reduces the spatial dimensions of the feature maps.
 - Dense Layers: Two dense layers are added on top of the base model. The first dense layer has 128 units with a sigmoid activation, followed by a single output unit for binary classification.
 The model is highly efficient due to the lightweight nature of MobileNetV2, making it suitable for real-time safety compliance monitoring.
+
+## Streamlit Deployment
+
+You can try out the **Employee Safety Gear Detection** app live on Streamlit Cloud:
+
+- **[Click here to view the live app]([https://your-app-link.streamlit.app/](https://safety-gear-detections.streamlit.app/))**
+
+
