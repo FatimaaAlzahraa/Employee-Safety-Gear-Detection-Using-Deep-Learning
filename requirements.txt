@@ -1,7 +1,7 @@
 streamlit==1.14.0
 tensorflow-cpu==2.16.1
 pillow==10.4.0  # Updated to the latest version to avoid version conflicts
-setuptools  # Ensures distutils is available
+setuptools  # Ensures distutils available
 pip==24.2
 
 # streamlit==1.18.0
