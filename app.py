@@ -9,7 +9,7 @@ st.title("Employee Safety Gear Detection Using Deep Learning (MobileNetV2)")
 st.write("Upload an image and the model will predict whether the employee is wearing safety gear.")
 
 # Load the trained model
-@st.cache_resource  # Cache the model so it doesn't reload every time
+@st.cache  # Use st.cache for older versions of Streamlit
 def load_safety_model():
     model = load_model(r'C:\Users\zahra\Downloads\projectdeep\employee_safety_model.keras')  # Make sure the correct path is provided
     return model
@@ -43,4 +43,3 @@ if image_file:
     # Predict if the person is wearing safety gear
     result = predict(image_file)
     st.write(f"Prediction: **{result}**")
-
